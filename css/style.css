@@ -4383,32 +4383,34 @@ body {
 
 /* -- variables -- */
 /* -- navbar */
-.navbar {
+.navigation {
   background-color: rgba(255, 255, 255, 0.685);
+  position: fixed;
   opacity: 0.8;
   height: 4rem;
-  position: fixed;
   width: 100%;
   padding-top: 0.5rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   z-index: 1;
 }
 
 li.navli {
-  display: inline;
-  justify-content: space-around;
-  justify-items: normal;
-  margin: auto;
+  display: inline-flex;
   flex-wrap: wrap;
-  padding: 1rem;
   top: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: "indie_flowerregular";
 }
 
-.ul.navigation {
-  justify-content: space-around;
+.navli.a {
+  margin: auto;
+}
+
+.navigation {
+  word-spacing: 2rem;
+  text-align: center;
+  padding-left: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
