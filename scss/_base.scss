@@ -1,5 +1,23 @@
+/* -- variables -- */
+$pinkcolor: rgba(221, 74, 99, 0.719);
+$lightpink: rgb(240, 209, 214);
+$greycolor: rgb(102, 101, 101);
+$bluecolor: rgba(66, 80, 160, 0.555);
+$indiefont: "indie_flowerregular";
+
 body {
     background-image: url("../img/concrete_seamless.png");
     background-repeat: repeat;
-    height:100vh;
+    margin: auto;
+}
+
+h3 {
+    font-family: $indiefont;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: justify;
 }
