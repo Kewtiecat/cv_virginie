@@ -1016,7 +1016,16 @@ body {
   background-repeat: repeat;
   margin: auto; }
 
+.format__mobile {
+  display: none; }
+
 /* -- variables -- */
+.headerimg {
+  background-image: url("../img/fondmini.jpg");
+  background-repeat: no-repeat;
+  height: 740px;
+  text-align: center; }
+
 /* -- variables -- */
 
 /*# sourceMappingURL=style.css.map */
