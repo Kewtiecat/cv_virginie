@@ -1016,16 +1016,42 @@ body {
   background-repeat: repeat;
   margin: auto; }
 
-.format__mobile {
-  display: none; }
-
 /* -- variables -- */
 .headerimg {
   background-image: url("../img/fondmini.jpg");
   background-repeat: no-repeat;
   height: 740px;
-  text-align: center; }
+  text-align: center;
+  padding-top: 25vh;
+  width: 100%; }
+
+.header__title {
+  font-family: "indie_flowerregular";
+  color: white;
+  font-weight: bold; }
+
+.header__profil {
+  box-shadow: 1vh 1vh 1vh white, -1vh -1vh 1vh white;
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: 2vh; }
+
+.header__title--mini {
+  font-family: "indie_flowerregular";
+  color: white;
+  font-weight: bold;
+  margin: auto; }
 
 /* -- variables -- */
+/* -- variables -- */
+h2 {
+  font-family: "indie_flowerregular";
+  font-weight: bold;
+  text-align: center; }
+
+p {
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 1.5vh; }
 
 /*# sourceMappingURL=style.css.map */
