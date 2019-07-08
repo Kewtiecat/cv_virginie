@@ -1300,11 +1300,15 @@ h3 {
   font-family: "indie_flowerregular";
   text-align: center;
   padding-top: 2rem;
+  font-size: 1.4rem;
 }
 
 p {
   font-family: sans-serif;
   text-align: justify;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  color: #5f6164;
 }
 
 /* -- variables -- */
@@ -1385,6 +1389,17 @@ li.navli {
 .divider {
   height: 0.2rem;
   background-image: linear-gradient(to left, #1d2274, #811675, #c11a60, #e54f3f, #eb8b12);
+}
+
+h3 {
+  font-family: "indie_flowerregular";
+  text-align: center;
+  padding-top: 2rem;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
