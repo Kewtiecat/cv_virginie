@@ -7,30 +7,45 @@ $indiefont: "indie_flowerregular";
 
 
 .headerimg {
-    background-image: url("../img/fondmini.jpg");
-    background-repeat: no-repeat;
-    height: 740px;
+    background-image: url("../img/fondfo.jpg");
+    background-size: cover;
+    height: 650px;
     text-align: center;
-    padding-top: 25vh;
+    padding-top: 10vh;
     width: 100%;
 }
 
 .header__title {
     font-family: $indiefont;
-    color: white;
+    color: black;
     font-weight: bold;
+    font-size: 9vh;
 }
 
 .header__profil {
     box-shadow: 1vh 1vh 1vh white, -1vh -1vh 1vh white;
-    width: 50%;
+    width: 30vh;
     border-radius: 50%;
     margin-bottom: 2vh;
 }
 
 .header__title--mini {
     font-family: $indiefont;
-    color: white;
+    color: rgb(82, 81, 81);
     font-weight: bold;
     margin: auto;
+    position: relative;
+    bottom: 4.5vh;
+    right: 8vh;
+    font-size: 4vh;
+}
+
+.profil__top {
+    background-color: rgba(255, 255, 255, 0.349);
+    margin-top: 1.5vh;
+}
+
+li.navli {
+    background-color: white;
+    display: inline;
 }
