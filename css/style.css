@@ -1064,10 +1064,6 @@ h3 {
 .profil__top {
   margin-top: 1.5vh; }
 
-li.navli {
-  background-color: white;
-  display: inline; }
-
 /* -- variables -- */
 /* -- variables -- */
 h2 {
@@ -1080,5 +1076,9 @@ p {
   color: #807f7f;
   text-align: justify;
   padding: 1.5vh; }
+
+li.navli {
+  background-color: white;
+  display: inline; }
 
 /*# sourceMappingURL=style.css.map */
