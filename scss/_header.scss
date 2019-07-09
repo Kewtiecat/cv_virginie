@@ -2,7 +2,7 @@
 $pinkcolor: rgba(221, 74, 99, 0.719);
 $lightpink: rgb(240, 209, 214);
 $greycolor: rgb(102, 101, 101);
-$bluecolor: rgba(66, 80, 160, 0.555);
+$browncolor: rgba(87, 55, 41, 0.822);
 $indiefont: "indie_flowerregular";
 
 
@@ -11,21 +11,20 @@ $indiefont: "indie_flowerregular";
     background-size: cover;
     height: 650px;
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 18vh;
     width: 100%;
 }
 
 .header__title {
     font-family: $indiefont;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 9vh;
+    font-size: 6vh;
 }
 
 .header__profil {
     box-shadow: 1vh 1vh 1vh white, -1vh -1vh 1vh white;
-    width: 30vh;
-    border-radius: 50%;
+    width: 20vh;
     margin-bottom: 2vh;
 }
 
@@ -35,13 +34,12 @@ $indiefont: "indie_flowerregular";
     font-weight: bold;
     margin: auto;
     position: relative;
-    bottom: 4.5vh;
-    right: 8vh;
-    font-size: 4vh;
+    bottom: 3vh;
+    right: 4vh;
+    font-size: 2vh;
 }
 
 .profil__top {
-    background-color: rgba(255, 255, 255, 0.349);
     margin-top: 1.5vh;
 }
 

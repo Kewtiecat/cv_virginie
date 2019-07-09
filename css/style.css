@@ -1012,9 +1012,24 @@ template {
     margin-left: 91.66667%; } }
 /* -- variables -- */
 body {
-  background-image: url("../img/concrete_seamless.png");
+  background-image: url("../img/vintage-concrete.png");
   background-repeat: repeat;
   margin: auto; }
+
+.bem {
+  border: 1px dotted #6e645b;
+  padding: .4rem;
+  margin: .5rem; }
+
+h3 {
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+  background-color: rgba(87, 55, 41, 0.671);
+  padding: .8rem;
+  text-align: center;
+  font-family: "indie_flowerregular";
+  font-size: 2rem;
+  color: white; }
 
 /* -- variables -- */
 .headerimg {
@@ -1022,19 +1037,18 @@ body {
   background-size: cover;
   height: 650px;
   text-align: center;
-  padding-top: 10vh;
+  padding-top: 18vh;
   width: 100%; }
 
 .header__title {
   font-family: "indie_flowerregular";
-  color: black;
+  color: white;
   font-weight: bold;
-  font-size: 9vh; }
+  font-size: 6vh; }
 
 .header__profil {
   box-shadow: 1vh 1vh 1vh white, -1vh -1vh 1vh white;
-  width: 30vh;
-  border-radius: 50%;
+  width: 20vh;
   margin-bottom: 2vh; }
 
 .header__title--mini {
@@ -1043,12 +1057,11 @@ body {
   font-weight: bold;
   margin: auto;
   position: relative;
-  bottom: 4.5vh;
-  right: 8vh;
-  font-size: 4vh; }
+  bottom: 3vh;
+  right: 4vh;
+  font-size: 2vh; }
 
 .profil__top {
-  background-color: rgba(255, 255, 255, 0.349);
   margin-top: 1.5vh; }
 
 li.navli {
@@ -1064,6 +1077,7 @@ h2 {
 
 p {
   font-family: sans-serif;
+  color: #807f7f;
   text-align: justify;
   padding: 1.5vh; }
 

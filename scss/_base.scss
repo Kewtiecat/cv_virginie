@@ -2,11 +2,28 @@
 $pinkcolor: rgba(221, 74, 99, 0.719);
 $lightpink: rgb(240, 209, 214);
 $greycolor: rgb(102, 101, 101);
-$bluecolor: rgba(66, 80, 160, 0.555);
+$browncolor: rgba(87, 55, 41, 0.822);
 $indiefont: "indie_flowerregular";
 
 body {
-    background-image: url("../img/concrete_seamless.png");
+    background-image: url("../img/vintage-concrete.png");
     background-repeat: repeat;
     margin: auto;
+}
+
+.bem {
+    border: 1px dotted rgb(110, 100, 91);
+    padding: .4rem;
+    margin:.5rem;
+}
+
+h3 {
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+    background-color: rgba(87, 55, 41, 0.671);
+    padding: .8rem;
+    text-align: center;
+    font-family: $indiefont;
+    font-size:2rem;
+    color: white;
 }

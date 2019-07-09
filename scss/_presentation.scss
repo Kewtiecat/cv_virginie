@@ -1,18 +1,19 @@
 /* -- variables -- */
 $pinkcolor: rgba(221, 74, 99, 0.719);
 $lightpink: rgb(240, 209, 214);
-$greycolor: rgb(102, 101, 101);
+$greycolor: rgb(128, 127, 127);
 $bluecolor: rgba(66, 80, 160, 0.555);
 $indiefont: "indie_flowerregular";
 
 h2 {
     font-family: $indiefont;
     font-weight: bold;
-    text-align: center;
+    text-align: center;;
 }
 
 p {
     font-family: sans-serif;
+    color: $greycolor;
     text-align: justify;
     padding: 1.5vh;
 }
