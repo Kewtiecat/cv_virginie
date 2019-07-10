@@ -8,12 +8,21 @@ $indiefont: "indie_flowerregular";
 h2 {
     font-family: $indiefont;
     font-weight: bold;
-    text-align: center;;
+    text-align: center;
+    font-size: 2rem;
 }
 
 p {
     font-family: sans-serif;
-    color: $greycolor;
+    color: black;
     text-align: justify;
-    padding: 1.5vh;
+    font-weight: 100;
+}
+
+.profil__img {
+    width: 100%;
+    height: 100%;
+    border: 1px dashed black;
+    padding: 1rem;
+    border-radius: 10%;
 }

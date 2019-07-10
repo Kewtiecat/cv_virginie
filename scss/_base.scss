@@ -1,8 +1,8 @@
 /* -- variables -- */
-$pinkcolor: rgba(221, 74, 99, 0.719);
+$pinkcolor: rgba(199, 179, 63, 0.596);
 $lightpink: rgb(240, 209, 214);
 $greycolor: rgb(102, 101, 101);
-$browncolor: rgba(87, 55, 41, 0.822);
+$bluecolor: rgba(13, 9, 44, 0.918);
 $indiefont: "indie_flowerregular";
 
 body {
@@ -12,7 +12,6 @@ body {
 }
 
 .bem {
-    border: 1px dotted rgb(110, 100, 91);
     padding: .4rem;
     margin:.5rem;
 }
@@ -20,10 +19,18 @@ body {
 h3 {
     margin-top: .8rem;
     margin-bottom: .8rem;
-    background-color: rgba(87, 55, 41, 0.671);
     padding: .8rem;
     text-align: center;
-    font-family: $indiefont;
-    font-size:2rem;
-    color: white;
+    font-family: sans-serif;
+    font-size:2.5rem;
+    color: $bluecolor;
+    font-weight: 200;
+}
+
+.divider {
+    height: 1px;
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
 }
