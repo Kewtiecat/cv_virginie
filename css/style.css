@@ -1010,102 +1010,54 @@ template {
 
   .offset-xl-11 {
     margin-left: 91.66667%; } }
-/* -- variables -- */
 body {
-  margin: auto; }
+  margin: auto;
+  line-height: 3rem; }
 
-.bem {
-  padding: .4rem;
-  margin: .5rem; }
-
-h3 {
-  margin-top: .8rem;
-  margin-bottom: .8rem;
-  padding: .8rem;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 2.5rem;
-  color: #611361;
-  font-weight: 200; }
-
+@font-face {
+  font-family: 'indie_flowerregular';
+  src: url("IndieFlower-webfont.eot");
+  src: url("IndieFlower-webfont.eot?#iefix") format("embedded-opentype"), url("IndieFlower-webfont.woff2") format("woff2"), url("IndieFlower-webfont.woff") format("woff"), url("IndieFlower-webfont.ttf") format("truetype"), url("IndieFlower-webfont.svg#indie_flowerregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 .divider {
-  height: 1px;
-  background-color: black;
-  width: 50%;
-  margin: auto;
-  margin-top: 2rem; }
+  height: .2rem;
+  background-color: black; }
 
-/* -- variables -- */
-.headerimg {
-  background-image: url("../img/91336.jpg");
+/* - - variables - - */
+header {
+  background-image: url("../img/10612.jpg");
   background-size: cover;
+  height: 100vh;
   text-align: center;
-  height: 650px;
-  padding-bottom: 18vh;
-  width: 100%; }
+  padding-top: 10rem; }
 
-.header__title {
-  font-family: sans-serif;
-  color: #300950;
-  font-weight: 100;
-  font-size: 3.2rem;
-  position: relative;
-  top: 12rem; }
-
-.header__title--mini {
-  font-family: "indie_flowerregular";
-  color: #4e4c4c;
-  font-weight: 100;
-  margin: auto;
-  position: relative;
-  top: 11rem;
-  font-size: 1.5rem; }
-
-.profil__top {
-  position: relative;
-  top: 5.2rem; }
-
-.top__global {
-  text-align: center;
+.main__global {
+  background-color: white;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  width: 70%;
   margin: auto; }
 
-/* -- variables -- */
-/* -- variables -- */
-h2 {
-  font-family: "indie_flowerregular";
-  font-weight: bold;
-  text-align: center;
-  font-size: 2rem; }
-
-p {
+h1 {
   font-family: sans-serif;
-  color: black;
-  text-align: justify;
-  font-weight: 100; }
+  color: #6d194a;
+  font-weight: 100;
+  font-size: 3rem; }
 
-.profil__img {
-  width: 80%;
-  height: 100%;
-  border: 1px solid #380c38;
-  padding: 1rem;
-  border-radius: 10%; }
+.main__slogan {
+  color: #555252;
+  font-family: "indie_flowerregular";
+  font-size: 1.2rem; }
 
-.present__self {
-  margin-top: 2rem;
-  padding: 0.4rem; }
-
-/* -- variables -- */
-li.navli {
-  color: white;
-  display: inline;
-  text-transform: uppercase; }
-
+/* - - navbar - - */
 .navbar {
-  position: relative;
-  top: 5rem;
-  background-color: rgba(255, 255, 255, 0.397);
-  word-spacing: 1rem;
-  width: 50%;
-  height: 2rem; }
+  word-spacing: 1.2rem; }
+
+li.navli {
+  display: inline; }
+
+.navli a {
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */
