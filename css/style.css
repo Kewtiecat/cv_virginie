@@ -1027,7 +1027,7 @@ h3 {
   text-align: center;
   font-family: sans-serif;
   font-size: 2.5rem;
-  color: rgba(13, 9, 44, 0.918);
+  color: #611361;
   font-weight: 200; }
 
 .divider {
@@ -1086,11 +1086,15 @@ p {
   font-weight: 100; }
 
 .profil__img {
-  width: 100%;
+  width: 80%;
   height: 100%;
-  border: 1px dashed black;
+  border: 1px solid #380c38;
   padding: 1rem;
   border-radius: 10%; }
+
+.present__self {
+  margin-top: 2rem;
+  padding: 0.4rem; }
 
 /* -- variables -- */
 li.navli {

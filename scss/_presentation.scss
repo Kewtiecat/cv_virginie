@@ -20,9 +20,14 @@ p {
 }
 
 .profil__img {
-    width: 100%;
+    width: 80%;
     height: 100%;
-    border: 1px dashed black;
+    border: 1px solid rgb(56, 12, 56);
     padding: 1rem;
     border-radius: 10%;
+}
+
+.present__self {
+    margin-top: 2rem;
+    padding: 0.4rem;
 }
