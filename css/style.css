@@ -1012,8 +1012,6 @@ template {
     margin-left: 91.66667%; } }
 /* -- variables -- */
 body {
-  background-image: url("../img/vintage-concrete.png");
-  background-repeat: repeat;
   margin: auto; }
 
 .bem {
