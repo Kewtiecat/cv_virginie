@@ -1031,7 +1031,6 @@ h2 {
   font-weight: 200;
   font-size: 2rem;
   background-image: radial-gradient(circle, #91789f, #6c5b77, #4a3f52, #2b252f, #0c090e);
-  opacity: .6;
   color: white;
   margin-top: 1.5rem;
   padding-top: .4rem;
@@ -1056,7 +1055,6 @@ main {
 header {
   background-image: url("../img/10612.jpg");
   background-size: cover;
-  background-position: fixed;
   height: 100vh;
   text-align: center;
   padding-top: 10rem; }
