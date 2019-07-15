@@ -1023,14 +1023,14 @@ body {
   font-style: normal; }
 .divider {
   height: .2rem;
-  background-image: radial-gradient(circle, #91789f, #6c5b77, #4a3f52, #2b252f, #0c090e);
+  background-image: radial-gradient(circle, #0b8c8b, #0080a3, #006db6, #4151af, #861a87);
   margin-top: 1.5rem; }
 
 h2 {
   text-align: center;
   font-weight: 200;
   font-size: 2rem;
-  background-image: radial-gradient(circle, #91789f, #6c5b77, #4a3f52, #2b252f, #0c090e);
+  background-image: radial-gradient(circle, #0b8c8b, #0080a3, #006db6, #4151af, #861a87);
   color: white;
   margin-top: 1.5rem;
   padding-top: .4rem;
