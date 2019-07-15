@@ -27,7 +27,7 @@ h1
     color: $violetcolor;
     font-weight: 100;
     font-size: 3rem;
-    animation: fadein;
+    animation-name: fadein;
     animation-duration: 3s;
 }
 
@@ -41,16 +41,23 @@ h1
     color: $greycolor;
     font-family: $indiefont;
     font-size: 1.2rem;
-    animation: fadein;
+    animation-name: slidein;
     animation-duration: 3s;
     animation-delay: 4;
 }
 
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
 
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
 
 /* - - navbar - - */
 

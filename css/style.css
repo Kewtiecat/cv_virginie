@@ -1071,7 +1071,7 @@ h1 {
   color: #52295a;
   font-weight: 100;
   font-size: 3rem;
-  animation: fadein;
+  animation-name: fadein;
   animation-duration: 3s; }
 
 @keyframes fadein {
@@ -1083,15 +1083,17 @@ h1 {
   color: #555252;
   font-family: "indie_flowerregular";
   font-size: 1.2rem;
-  animation: fadein;
+  animation-name: slidein;
   animation-duration: 3s;
   animation-delay: 4; }
 
-@keyframes fadein {
+@keyframes slidein {
   from {
-    opacity: 0; }
+    margin-left: 100%;
+    width: 300%; }
   to {
-    opacity: 1; } }
+    margin-left: 0%;
+    width: 100%; } }
 /* - - navbar - - */
 .navbar {
   word-spacing: 1.2rem; }
