@@ -1,10 +1,13 @@
 .frontend__logo
 {
-    width: 30%;
+    width: 20%;
+    margin: .4rem;
 }
 
 .competences 
 {
     padding-left: .8rem;
     padding-right: .8rem;
+    display: flex;
+    flex-wrap: flex;
 }
