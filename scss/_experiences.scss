@@ -4,13 +4,16 @@
     line-height: 1.5rem;
 }
 
-.expe
-{
-    border-left: 1px solid rgb(41, 28, 53);
-}
-
 .expe__logo
 {
     width:100%;
     margin-bottom: 1.2rem;
+}
+
+@media screen and (min-width:600px)
+{
+    .expe
+    {
+    border-left: 1px solid rgb(41, 28, 53);
+    }
 }

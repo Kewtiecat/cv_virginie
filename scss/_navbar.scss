@@ -1,0 +1,49 @@
+/* - - navbar - - */
+
+.navbar
+{
+    word-spacing: 1.2rem;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+}
+
+.contact__navbar
+{
+    position: relative;
+    float: right;
+    width: 4%;
+    border-radius: 50%;
+    margin-top:.2rem;
+    margin-right: .2rem;
+    margin-left: .2rem;
+}
+
+li.navli
+{
+    display: inline;
+    
+}
+
+.navli a
+{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 300;
+    
+}
+
+.navli a:hover
+{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.623);
+    padding: .4rem;
+}
+
+.navli a:active 
+{
+    color: rgb(90, 14, 65);
+}

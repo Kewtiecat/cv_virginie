@@ -59,39 +59,3 @@ h1
       width: 100%;
     }
 }
-
-/* - - navbar - - */
-
-.navbar
-{
-    word-spacing: 1.2rem;
-    
-}
-
-li.navli
-{
-    display: inline;
-    
-}
-
-.navli a
-{
-    color: black;
-    font-family: sans-serif;
-    font-weight: 300;
-    
-}
-
-.navli a:hover
-{
-    text-decoration: none;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.623);
-    padding: .4rem;
-}
-
-.navli a:active 
-{
-    color: rgb(90, 14, 65);
-}
