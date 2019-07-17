@@ -1126,7 +1126,8 @@ h1 {
   position: fixed;
   background-color: black;
   z-index: 1;
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
 
 .contact__navbar {
   position: relative;
@@ -1137,15 +1138,13 @@ h1 {
   margin-right: .2rem;
   margin-left: .2rem; }
 
-li.navli {
-  display: inline; }
-
-.navli a {
+a.navli {
   color: white;
   font-family: sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  margin: .5rem; }
 
-.navli a:hover {
+a.navli:hover {
   text-decoration: none;
   font-weight: 500;
   color: black;
