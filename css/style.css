@@ -1123,6 +1123,9 @@ li.navli {
   padding: .8rem;
   margin-top: 2rem; }
 
+.photo {
+  text-align: center; }
+
 .presentation__txt {
   line-height: 1.6rem;
   margin-top: 2.8rem;
@@ -1170,5 +1173,15 @@ footer {
 .contact__logo {
   width: 8%;
   border-radius: 50%; }
+
+.project__img {
+  width: 100%; }
+
+.projet__bem {
+  line-height: 1.5rem;
+  text-align: justify; }
+
+.projets__encours {
+  line-height: 1.5rem; }
 
 /*# sourceMappingURL=style.css.map */
