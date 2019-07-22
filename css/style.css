@@ -1061,7 +1061,7 @@ header {
   padding-top: 10rem; }
 
 .main__global {
-  background-color: rgba(255, 255, 255, 0.459);
+  background-color: white;
   padding-top: .5rem;
   padding-bottom: .5rem;
   width: 70%;
@@ -1095,6 +1095,14 @@ h1 {
   to {
     margin-left: 0%;
     width: 100%; } }
+@media screen and (min-width: 760px) {
+  header {
+    padding-top: 18rem; }
+
+  .main__global {
+    width: 50%;
+    padding-top: 1rem;
+    padding-bottom: 1rem; } }
 .profil__img {
   width: 65%;
   border-radius: 5%, 25%;
@@ -1120,6 +1128,10 @@ h1 {
 .competences {
   text-align: center; }
 
+@media screen and (min-width: 760px) {
+  .frontend__logo {
+    width: 11%;
+    margin: .4rem; } }
 /* - - navbar - - */
 .navbar {
   word-spacing: 1.2rem;
@@ -1174,6 +1186,9 @@ footer {
 .footer__logo {
   width: 15%; }
 
+@media screen and (min-width: 760px) {
+  .footer__logo {
+    width: 9%; } }
 .contact__txt {
   text-align: center;
   line-height: 1.2rem;
@@ -1185,8 +1200,13 @@ footer {
 
 .contact__logo {
   width: 8%;
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin-right: .2rem; }
 
+@media screen and (min-width: 760px) {
+  .contact__logo {
+    width: 5%;
+    border-radius: 50%; } }
 .project__img {
   width: 100%; }
 
@@ -1196,5 +1216,11 @@ footer {
 
 .projets__encours {
   line-height: 1.5rem; }
+
+@media screen and (min-width: 760px) {
+  .projet__bem {
+    line-height: 1.5rem;
+    text-align: justify;
+    width: 30%; } }
 
 /*# sourceMappingURL=style.css.map */
