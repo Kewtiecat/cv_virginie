@@ -1013,7 +1013,8 @@ template {
 body {
   margin: auto;
   line-height: 3rem;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background-color: #bac1d4b9; }
 
 @font-face {
   font-family: 'indie_flowerregular';
@@ -1056,6 +1057,7 @@ main {
 header {
   background-image: url("../img/10612.jpg");
   background-size: cover;
+  background-position: fixed;
   height: 100vh;
   text-align: center;
   padding-top: 10rem; }
@@ -1198,10 +1200,16 @@ footer {
 .contact__contact {
   line-height: 1rem; }
 
+.contact__contact a {
+  text-decoration: none;
+  color: blue; }
+
 .contact__logo {
   width: 8%;
   border-radius: 50%;
-  margin-right: .2rem; }
+  margin-right: .2rem;
+  margin-left: .3rem;
+  margin-bottom: .3rem; }
 
 @media screen and (min-width: 760px) {
   .contact__logo {
@@ -1215,7 +1223,8 @@ footer {
   text-align: justify; }
 
 .projets__encours {
-  line-height: 1.5rem; }
+  line-height: 1.5rem;
+  margin-left: 2rem; }
 
 @media screen and (min-width: 760px) {
   .projet__bem {
