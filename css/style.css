@@ -1198,7 +1198,7 @@ footer {
   background-color: white;
   border-radius: 15%;
   padding: 2vh;
-  background-image: radial-gradient(circle, #0b8c8b, #0080a3, #006db6, #4151af, #861a87); }
+  background-color: #1d1b1b; }
 
 a.pdf__cv {
   text-decoration: none;
