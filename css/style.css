@@ -1152,6 +1152,9 @@ h1 {
   margin-right: .2rem;
   margin-left: .2rem; }
 
+@media screen and (max-width: 600px) {
+  .contact__navbar {
+    width: 35px; } }
 a.navli {
   color: white;
   font-family: sans-serif;
