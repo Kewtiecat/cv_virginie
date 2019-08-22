@@ -1194,6 +1194,16 @@ footer {
 @media screen and (min-width: 760px) {
   .footer__logo {
     width: 9%; } }
+.pdf__cv {
+  background-color: white;
+  border-radius: 15%;
+  padding: 2vh;
+  background-image: radial-gradient(circle, #0b8c8b, #0080a3, #006db6, #4151af, #861a87); }
+
+a.pdf__cv {
+  text-decoration: none;
+  color: white; }
+
 .contact__txt {
   text-align: center;
   line-height: 1.2rem;
@@ -1208,7 +1218,7 @@ footer {
   color: blue; }
 
 .contact__logo {
-  width: 8%;
+  width: 5%;
   border-radius: 50%;
   margin-right: .2rem;
   margin-left: .3rem;
@@ -1216,7 +1226,7 @@ footer {
 
 @media screen and (min-width: 760px) {
   .contact__logo {
-    width: 5%;
+    width: 4%;
     border-radius: 50%; } }
 .project__img {
   width: 100%; }
